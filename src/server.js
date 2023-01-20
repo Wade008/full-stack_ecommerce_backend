@@ -15,7 +15,7 @@ app.use(helmet());
 app.use(express.json());
 
 const corsOption = {
-    origin: ["http://localhost:3000"], // the origin that we want to accept, i.e. our frontend
+    origin: ["http://localhost:3000", "https://venerable-bienenstitch-0c4627.netlify.app"], // the origin that we want to accept, i.e. our frontend
     optionsSuccessStatus: 200
 }
 
